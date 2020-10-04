@@ -5,8 +5,9 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Post;
 use App\Comment;
-use Auth;
+
 use App\Events\NewComment;
+use Illuminate\Support\Facades\Auth;
 
 class CommentController extends Controller
 {
