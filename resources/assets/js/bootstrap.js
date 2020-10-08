@@ -51,7 +51,7 @@ window.Echo = new Echo({
     broadcaster: 'pusher',
     key: '417bf61850254ced1f69',
     cluster: 'mt1',
-    wsHost: self-pusher-server.herokuapp.com,
+    wsHost: 'self-pusher-server.herokuapp.com',
     wsPort: 8080,
     encrypted: true,
     disableStats: true,
