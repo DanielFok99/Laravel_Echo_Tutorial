@@ -42,7 +42,10 @@ return [
                 'curl_options' => [
                     CURLOPT_SSL_VERIFYHOST => 0,
                     CURLOPT_SSL_VERIFYPEER => 0,
-                ]
+                ],
+                'host' => 'self-pusher-server.herokuapp.com',
+                'port' => 8080,
+                'scheme' => 'http'
             ],
         ],
 
